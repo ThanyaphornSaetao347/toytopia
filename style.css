@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+DE+Grund+Guides&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Body and Layout */
+body {
+    line-height: 1.2;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #333; */
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo img{
+    width: 6rem;
+}
+
+header .logo a {
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    background-color: #afa9a9;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.content h2{
+    font-size: 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.content a{
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 20px;
+    color: black;
+}
+
+.content a svg{
+    margin-right: 10px;
+}
+
+.content a span{
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+}
